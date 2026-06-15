@@ -1,0 +1,8 @@
+## 🛠️ Technology Stack & Tools Used
+
+To simulate a real-world corporate analytics pipeline, this project uses a modern data warehousing stack:
+
+*   **Database Engine (MySQL 8.0+):** Chosen for its native support of modern ANSI-SQL window functions (`LAG`, `LEAD`, `NTILE`), recursive scripting capacities (`WITH RECURSIVE`), and enterprise query planning tools.
+*   **Data Modeling Tools (Dbdiagram.io / MySQL Workbench):** Used to design a scalable **Star Schema / Snowflake hybrid** architecture that isolates operational transactional tables (OLTP) from analytical query tables (OLAP).
+*   **Database Management Systems / IDEs (MySQL Workbench / DBeaver):** Used to run script tests, execute index tuning routines, and perform query validation processes.
+*   **Query Performance Tuning (`EXPLAIN ANALYZE`):** Used to audit and optimize query execution plans, reduce nested loops, and ensure proper B-Tree index utilization across large datasets.
