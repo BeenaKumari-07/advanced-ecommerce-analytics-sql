@@ -1,4 +1,4 @@
-<img width="1252" height="735" alt="image" src="https://github.com/user-attachments/assets/50596263-bdd4-474c-9fc7-e556d27365bb" /># Advanced E-Commerce & User Behavioral Analytics Engine (MySQL)
+# Advanced E-Commerce & User Behavioral Analytics Engine (MySQL)
 
 ## 📌 Project Overview
 This repository contains a production-grade relational database framework designed to track, model, and extract actionable business intelligence from large-scale e-commerce transactions and digital clickstream web logs.
